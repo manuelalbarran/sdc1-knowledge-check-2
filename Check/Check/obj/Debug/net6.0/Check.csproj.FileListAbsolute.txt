@@ -1,0 +1,14 @@
+C:\Users\Manue\sdc1-knowledge-check-2\Check\Check\obj\Debug\net6.0\Check.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manue\sdc1-knowledge-check-2\Check\Check\obj\Debug\net6.0\Check.AssemblyInfoInputs.cache
+C:\Users\Manue\sdc1-knowledge-check-2\Check\Check\obj\Debug\net6.0\Check.AssemblyInfo.cs
+C:\Users\Manue\sdc1-knowledge-check-2\Check\Check\obj\Debug\net6.0\Check.csproj.CoreCompileInputs.cache
+C:\Users\Manue\sdc1-knowledge-check-2\Check\Check\bin\Debug\net6.0\Check.exe
+C:\Users\Manue\sdc1-knowledge-check-2\Check\Check\bin\Debug\net6.0\Check.deps.json
+C:\Users\Manue\sdc1-knowledge-check-2\Check\Check\bin\Debug\net6.0\Check.runtimeconfig.json
+C:\Users\Manue\sdc1-knowledge-check-2\Check\Check\bin\Debug\net6.0\Check.dll
+C:\Users\Manue\sdc1-knowledge-check-2\Check\Check\bin\Debug\net6.0\Check.pdb
+C:\Users\Manue\sdc1-knowledge-check-2\Check\Check\obj\Debug\net6.0\Check.dll
+C:\Users\Manue\sdc1-knowledge-check-2\Check\Check\obj\Debug\net6.0\refint\Check.dll
+C:\Users\Manue\sdc1-knowledge-check-2\Check\Check\obj\Debug\net6.0\Check.pdb
+C:\Users\Manue\sdc1-knowledge-check-2\Check\Check\obj\Debug\net6.0\Check.genruntimeconfig.cache
+C:\Users\Manue\sdc1-knowledge-check-2\Check\Check\obj\Debug\net6.0\ref\Check.dll
