@@ -11,9 +11,5 @@ namespace Check
         public string Name { get; set; }
         public string Description { get; set; }
 
-        public override string ToString()
-        {
-            return string.Format ("Your pump is {Name} {Description}");
-        }
     }
 }

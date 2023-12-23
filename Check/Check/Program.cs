@@ -8,37 +8,30 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("How many records do you want to add? ");
-        var numberOfRecords = int.Parse(Console.ReadLine());
+        Console.WriteLine("How many Pumps do you want to add? ");
+        var numberOfPumps = int.Parse(Console.ReadLine());
 
-        var recordList = new List<Pump>();
-        for (int i = 0; i < numberOfRecords; i++)
+        var pumpList = new List<PumpValue>();
+        for (int i = 0; i < numberOfPumps; i++)
         {
             // In this loop, populate the object's properties using Console.ReadLine()
-            var Pump = new Pump();
-            Console.WriteLine("Enter name of the pump");
-            Pump.Name = Console.ReadLine();
-            Console.WriteLine("Enter the desciption of the pump");
-            Pump.Description = Console.ReadLine();
+            var PumpValue = new PumpValue();
+            Console.WriteLine("Enter name of the pump: ");
+            PumpValue.Name = Console.ReadLine();
+            Console.WriteLine("Enter the desciption of the pump: ");
+            PumpValue.Description = Console.ReadLine();
+            Console.WriteLine("Enter the price of the pump: ");
+            PumpValue.Price = decimal.Parse(Console.ReadLine());
 
-
-
-            Console.WriteLine("Enter the value for Spump");
-            Pump.Spump = decimal.Parse(Console.ReadLine());
-
-            recordList.Add(Pump);
+            pumpList.Add(PumpValue);
             Console.WriteLine("-------------------------");
         }
 
         // Print out the list of records using Console.WriteLine()
-        IEnumerable<Pump> temp = recordList;
-        temp = from v in temp
-               orderby v.Name ascending
-               select v;
 
-        foreach (Pump item in temp)
+        foreach (var item in pumpList)
         {
-            Console.WriteLine(item.Name + "\n" + item.Description + "\n" + item.Spump);
+            Console.WriteLine(item.Name + "\n" + item.Description + "\n" + item.Price);
             Console.WriteLine("---------------");
         }
 

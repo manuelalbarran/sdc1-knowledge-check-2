@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Check
 {
-    internal class Pump : Product
+    internal class PumpValue : Product
     {
-        public decimal Spump {  get; set; }
+        public decimal Price { get; set; }
 
-        }
     }
+}
